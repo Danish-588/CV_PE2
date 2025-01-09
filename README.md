@@ -7,7 +7,7 @@ A repository to store all materials related to the course **`Computer Vision`**.
 ## Note
 
 This repository is for **personal reference only**.  
-All laboratory exercises and projects are designed to be performed on **Google Colab**.
+All laboratory exercises and projects done by me are to be performed in **VSCode**.
 
 ---
 
@@ -26,18 +26,29 @@ All laboratory exercises and projects are designed to be performed on **Google C
 
 ## Environment
 
-The **Google Colab environment** will be used for all practicals and projects in this course. Ensure you have the following libraries installed in your Colab notebook:
+This course will be primarily carried out in the **VSCode** environment. Ensure you have the following setup on your local machine:
 
-- **OpenCV** (`cv2`)
-- **NumPy**
-- **Matplotlib**
-- **scikit-image**
-- **scikit-learn**
+### Prerequisites
 
-You can install any additional libraries as needed using `!pip install <library-name>`.
+- **Python 3.x** (preferably the latest version)
+- **VSCode** (Visual Studio Code)
 
----
+### Required Libraries
 
+Install the following libraries using `pip`:
+
+- **OpenCV** (`cv2`): For computer vision tasks.
+- **NumPy**: For numerical operations.
+- **Matplotlib**: For plotting and visualizations.
+- **scikit-image**: For image processing tasks.
+- **scikit-learn**: For machine learning tasks.
+- **Pillow**: For general image handling.
+
+To install the necessary libraries, run the following command in your terminal:
+
+```bash
+pip install opencv-python numpy matplotlib scikit-image scikit-learn Pillow
+```
 ## Contents
 
 ### Laboratory Exercises / Practicals
@@ -74,11 +85,9 @@ Projects will be implemented and documented in Colab notebooks.
 
 ### Textbooks
 
-1. **Richard Szeliski**, *Computer Vision: Algorithms and Applications*, Springer, 2011.  
-2. **Linda Shapiro** and **George Stockman**, *Computer Vision*.
+1. **Author**, *Name*, Notes.  
 
 ### Reference Books
 
-1. **U. Qidwai** and **C. Chen**, *Digital Image Processing: An Algorithmic Approach with MATLAB*, CRC Press, 2009.  
-2. **Al Bovik**, *Handbook of Digital Image and Video Processing*, Academic Press, 2005.  
-3. **David A. Forsyth** and **Jean Ponce**, *Computer Vision: A Modern Approach*.
+1. **Richard Hartley** and **Andrew Zisserman**, *Multiple View Geometry in Computer Vision*, Cambridge University Press, 2003.  
+   *(This book is being referred to by me for general and advanced concepts in the course)*.
