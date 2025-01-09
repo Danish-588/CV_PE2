@@ -1,45 +1,84 @@
 # Computer Vision (Winter 2025) @ MIT-WPU
 
-A repository to store all items pertaining to course `Computer Vision`
+A repository to store all materials related to the course **`Computer Vision`**.
 
-- Professor: [Jyoti Lele](https://research.mitwpu.edu.in/researcher/jyoti-lele)
+- **Professor:** [Jyoti Lele](https://research.mitwpu.edu.in/researcher/jyoti-lele)
 
 ## Note
 
-This repository is for personal reference only. 
-## Table of contents
+This repository is for **personal reference only**.  
+All laboratory exercises and projects are designed to be performed on **Google Colab**.
 
-- [Computer Vision (Winter 2025) @ MIT-WPU]
-    - [Note](#note)
-    - [Table of contents](#table-of-contents)
-    - [Environment](#environment)
-    - [Contents](#contents)
-        - [Assignments](#assignments)
-        - [Projects](#projects)
-        - [End-Semester](#end-semester)
+---
+
+## Table of Contents
+
+- [Computer Vision (Winter 2025) @ MIT-WPU](#computer-vision-winter-2025--mit-wpu)
+  - [Note](#note)
+  - [Table of Contents](#table-of-contents)
+  - [Environment](#environment)
+  - [Contents](#contents)
+    - [Laboratory Exercises / Practicals](#laboratory-exercises--practicals)
+    - [Projects](#projects)
+    - [References](#references)
+
+---
 
 ## Environment
 
-The anaconda environment can be set up using [anaconda-env.yml](./anaconda-env.yml). Everything should work on Linux, there may be some problems using some frameworks (like Jax) on Windows.
+The **Google Colab environment** will be used for all practicals and projects in this course. Ensure you have the following libraries installed in your Colab notebook:
+
+- **OpenCV** (`cv2`)
+- **NumPy**
+- **Matplotlib**
+- **scikit-image**
+- **scikit-learn**
+
+You can install any additional libraries as needed using `!pip install <library-name>`.
+
+---
 
 ## Contents
 
-### Assignments
+### Laboratory Exercises / Practicals
 
-The assignments given out (for the course) are summarized in the table below
+The practicals covered in this course are summarized below:
 
-| Assignment | Description |
+| Practical | Description |
 | :---- | :---- |
-| [Assignment 1](./Assignments/MR2021-Assignment-1/README.md) | Transformations and representations, basic Open3D, quaternions, euler angles, etc. |
-| [Assignment 2](./Assignments/MR2021-Assignment-2/README.md) | Data Representation and Point Cloud Operations, registration, occupancy maps |
-| [Assignment 3](./Assignments/MR2021-Assignment-3/README.md) | Non-linear least squares optimization, ICP (Procrustes Alignment) |
-| [Assignment 4](./Assignments/MR2021-Assignment-4/README.md) | DLT, Fundamental matrix and epipolar geometry |
+| **Practical 1** | Geometric transformations of an image |
+| **Practical 2** | Texture feature extraction using GLCM / Gabor transform |
+| **Practical 3** | Morphological operations |
+| **Practical 4** | Chain coding and decoding |
+| **Practical 5** | Image registration |
+| **Practical 6** | Face recognition using Viola-Jones algorithm or similar application |
+| **Practical 7** | Disparity estimation / Depth map generation |
+| **Practical 8** | 3D modeling |
+
+Each practical will have its own Colab notebook, and links to them will be provided once they are completed.
+
+---
 
 ### Projects
 
-The projects given out (for the course) are summarized in the table below
-
-| Projects | Description |
+| Project | Description |
 | :---- | :---- |
-| [Project 1](./Projects/Project1/README.md) | SLAM (Localization only) using non-linear least squares optimization, given the using pose-graph (smoothing). Includes Evo and G2O tutorial. |
-| [Project 2](./Projects/Project2/README.md) | Stereo, PnP, ICP and Bundle Adjustment |
+| **Project 1** | Disparity map generation and depth estimation from stereo images |
+| **Project 2** | Face detection and recognition using Viola-Jones or HOG-SVM |
+
+Projects will be implemented and documented in Colab notebooks.
+
+---
+
+## References
+
+### Textbooks
+
+1. **Richard Szeliski**, *Computer Vision: Algorithms and Applications*, Springer, 2011.  
+2. **Linda Shapiro** and **George Stockman**, *Computer Vision*.
+
+### Reference Books
+
+1. **U. Qidwai** and **C. Chen**, *Digital Image Processing: An Algorithmic Approach with MATLAB*, CRC Press, 2009.  
+2. **Al Bovik**, *Handbook of Digital Image and Video Processing*, Academic Press, 2005.  
+3. **David A. Forsyth** and **Jean Ponce**, *Computer Vision: A Modern Approach*.
