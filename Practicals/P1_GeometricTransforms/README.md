@@ -1,5 +1,6 @@
 # Computer Vision Image Manipulation and Visualization
 
+This can be viewed either using **Github's preview**, or by adding ```vscode.dev/``` before the github url of the jpynb. <br>Check [here](https://vscode.dev/github.com/Danish-588/CV_PE2/blob/main/Practicals/P1_GeometricTransforms/CV1.ipynb)
 For easy access and execution, you can open this project in [Google Colab](https://colab.research.google.com/drive/1dQPjacafaOQhcsqGUejJ0wrZ4p_hEs54?usp=sharing).
 
 This project demonstrates image manipulation and visualization techniques using OpenCV and Matplotlib, including:
