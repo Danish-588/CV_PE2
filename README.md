@@ -16,42 +16,16 @@ All laboratory exercises and projects done by me are to be performed in **VSCode
 - [Computer Vision (Winter 2025) @ MIT-WPU](#computer-vision-winter-2025--mit-wpu)
   - [Note](#note)
   - [Table of Contents](#table-of-contents)
-  - [Environment](#environment)
   - [Contents](#contents)
-    - [Laboratory Exercises / Practicals](#laboratory-exercises--practicals)
+    - [Practicals](#practicals)
     - [Projects](#projects)
+    - [Environment](#environment)
     - [References](#references)
 
 ---
-
-## Environment
-
-This course will be primarily carried out in the **VSCode** environment. Ensure you have the following setup on your local machine:
-
-### Prerequisites
-
-- **Python 3.x** (preferably the latest version)
-- **VSCode** (Visual Studio Code)
-
-### Required Libraries
-
-Install the following libraries using `pip`:
-
-- **OpenCV** (`cv2`): For computer vision tasks.
-- **NumPy**: For numerical operations.
-- **Matplotlib**: For plotting and visualizations.
-- **scikit-image**: For image processing tasks.
-- **scikit-learn**: For machine learning tasks.
-- **Pillow**: For general image handling.
-
-To install the necessary libraries, run the following command in your terminal:
-
-```bash
-pip install opencv-python numpy matplotlib scikit-image scikit-learn Pillow
-```
 ## Contents
 
-### Laboratory Exercises / Practicals
+### Practicals
 
 The practicals covered in this course are summarized below:
 
@@ -81,6 +55,32 @@ Projects will be implemented and documented in Colab notebooks.
 
 ---
 
+
+## Environment
+
+This course will be primarily carried out in the **VSCode** environment. Ensure you have the following setup on your local machine:
+
+### Prerequisites
+
+- **Python 3.x** (preferably the latest version)
+- **VSCode** (Visual Studio Code)
+
+### Required Libraries
+
+Install the following libraries using `pip`:
+
+- **OpenCV** (`cv2`): For computer vision tasks.
+- **NumPy**: For numerical operations.
+- **Matplotlib**: For plotting and visualizations.
+- **scikit-image**: For image processing tasks.
+- **scikit-learn**: For machine learning tasks.
+- **Pillow**: For general image handling.
+
+To install the necessary libraries, run the following command in your terminal:
+
+```bash
+pip install opencv-python numpy matplotlib scikit-image scikit-learn Pillow
+```
 ## References
 
 ### Textbooks
