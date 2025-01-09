@@ -1,4 +1,4 @@
-# Computer Vision (Winter 2025) @ MIT-WPU
+# Computer Vision (2025) @ MIT-WPU
 
 A repository to store all materials related to the course **`Computer Vision`**.
 
@@ -6,14 +6,17 @@ A repository to store all materials related to the course **`Computer Vision`**.
 
 ## Note
 
-This repository is for **personal reference only**.  
+[![Attribution-NonCommercial-ShareAlike 4.0 International CC BY-NC-SA 4.0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+This repository is for personal reference only. Please do not copy code for homework (understanding is better than grades). Please adhere to the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode); appropriate credits, whenever needed, are given in notebooks.
+
 All laboratory exercises and projects done by me are to be performed in **VSCode**.
 
 ---
 
 ## Table of Contents
 
-- [Computer Vision (Winter 2025) @ MIT-WPU](#computer-vision-winter-2025--mit-wpu)
+- [Computer Vision (2025) @ MIT-WPU](#computer-vision-winter-2025--mit-wpu)
   - [Note](#note)
   - [Table of Contents](#table-of-contents)
   - [Contents](#contents)
@@ -91,3 +94,5 @@ pip install opencv-python numpy matplotlib scikit-image scikit-learn Pillow
 
 1. **Richard Hartley** and **Andrew Zisserman**, *Multiple View Geometry in Computer Vision*, Cambridge University Press, 2003.  
    *(This book is being referred to by me for general and advanced concepts in the course)*.
+
+Note: The README's in this repository are inspired by [this](https://github.com/TheProjectsGuy/MR21-CS7.503)
