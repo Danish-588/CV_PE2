@@ -46,7 +46,7 @@ The practicals covered in this course are summarized below:
 
 | Practical | Description |
 | :---- | :---- |
-| **Practical 1** | Geometric transformations of an image |
+| **[Practical 1](Practicals/P1_GeometricTransforms/)** | Geometric transformations of an image |
 | **Practical 2** | Texture feature extraction using GLCM / Gabor transform |
 | **Practical 3** | Morphological operations |
 | **Practical 4** | Chain coding and decoding |
@@ -63,8 +63,8 @@ Each practical will have its own Colab notebook, and links to them will be provi
 
 | Project | Description |
 | :---- | :---- |
-| **Project 1** | Disparity map generation and depth estimation from stereo images |
-| **Project 2** | Face detection and recognition using Viola-Jones or HOG-SVM |
+| **Project 1** | Example (tbd) |
+| **Project 2** | Example (tbd) |
 
 Projects will be implemented and documented in Colab notebooks.
 
